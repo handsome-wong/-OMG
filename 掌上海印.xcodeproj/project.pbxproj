@@ -40,6 +40,8 @@
 		84B445CB1CBE5E7B0062B4D2 /* YLWNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B445C91CBE5E7B0062B4D2 /* YLWNewsTableViewCell.m */; };
 		84B445CC1CBE5E7B0062B4D2 /* YLWNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B445CA1CBE5E7B0062B4D2 /* YLWNewsTableViewCell.xib */; };
 		84B445CE1CBE60640062B4D2 /* OMG.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84B445CD1CBE60640062B4D2 /* OMG.rtf */; };
+		84B445D21CBE6C9C0062B4D2 /* SYQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B445D11CBE6C9C0062B4D2 /* SYQRCodeViewController.m */; };
+		84B445D41CBE6E120062B4D2 /* Sign.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B445D31CBE6E120062B4D2 /* Sign.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +126,9 @@
 		84B445C91CBE5E7B0062B4D2 /* YLWNewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWNewsTableViewCell.m; sourceTree = SOURCE_ROOT; };
 		84B445CA1CBE5E7B0062B4D2 /* YLWNewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLWNewsTableViewCell.xib; sourceTree = SOURCE_ROOT; };
 		84B445CD1CBE60640062B4D2 /* OMG.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = OMG.rtf; sourceTree = "<group>"; };
+		84B445D01CBE6C9C0062B4D2 /* SYQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYQRCodeViewController.h; sourceTree = "<group>"; };
+		84B445D11CBE6C9C0062B4D2 /* SYQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYQRCodeViewController.m; sourceTree = "<group>"; };
+		84B445D31CBE6E120062B4D2 /* Sign.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sign.storyboard; sourceTree = "<group>"; };
 		9ED048ED2C84BE1A11C76B1E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -240,6 +245,7 @@
 		84B445301CBE35C10062B4D2 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				84B445CF1CBE6C860062B4D2 /* SYQRCode */,
 				84B4459F1CBE42CA0062B4D2 /* Categray */,
 				84B4455E1CBE3C460062B4D2 /* titleArray.plist */,
 				84B445A11CBE435C0062B4D2 /* PrefixHeader.pch */,
@@ -525,6 +531,7 @@
 		84B445711CBE3E430062B4D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84B445D31CBE6E120062B4D2 /* Sign.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -617,6 +624,15 @@
 			);
 			name = Categray;
 			path = "../../../../../../Downloads/推库iOS/推库iOS/Class";
+			sourceTree = "<group>";
+		};
+		84B445CF1CBE6C860062B4D2 /* SYQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				84B445D01CBE6C9C0062B4D2 /* SYQRCodeViewController.h */,
+				84B445D11CBE6C9C0062B4D2 /* SYQRCodeViewController.m */,
+			);
+			name = SYQRCode;
 			sourceTree = "<group>";
 		};
 		EC5CB88CA63027E1C5C00253 /* Frameworks */ = {
@@ -733,6 +749,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B445D41CBE6E120062B4D2 /* Sign.storyboard in Resources */,
 				84B445CE1CBE60640062B4D2 /* OMG.rtf in Resources */,
 				84B4450C1CBE359E0062B4D2 /* LaunchScreen.storyboard in Resources */,
 				84B445CC1CBE5E7B0062B4D2 /* YLWNewsTableViewCell.xib in Resources */,
@@ -818,6 +835,7 @@
 				84B4455D1CBE3B2E0062B4D2 /* UserViewController.m in Sources */,
 				84B4454D1CBE3A430062B4D2 /* MessageViewController.m in Sources */,
 				84B445AD1CBE4DA40062B4D2 /* YLWCollectionViewCell.m in Sources */,
+				84B445D21CBE6C9C0062B4D2 /* SYQRCodeViewController.m in Sources */,
 				84B445541CBE3A7E0062B4D2 /* MarkViewController.m in Sources */,
 				84B445BE1CBE4DDB0062B4D2 /* YLWImageModel.m in Sources */,
 				84B4456E1CBE3DE70062B4D2 /* DepartmentViewController.m in Sources */,
