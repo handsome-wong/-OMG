@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E01ECAFECA2038D35890F54 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 340E228308EF573FB83B030B /* libPods.a */; };
+		8470C89D1CBF388B00B0FDBF /* YLWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470C89C1CBF388B00B0FDBF /* YLWCollectionViewCell.m */; };
 		84B444FE1CBE359E0062B4D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B444FD1CBE359E0062B4D2 /* main.m */; };
 		84B445011CBE359E0062B4D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B445001CBE359E0062B4D2 /* AppDelegate.m */; };
 		84B445071CBE359E0062B4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B445051CBE359E0062B4D2 /* Main.storyboard */; };
@@ -30,7 +31,6 @@
 		84B445A41CBE45A10062B4D2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B445A31CBE45A10062B4D2 /* BaseViewController.m */; };
 		84B445A91CBE4D9B0062B4D2 /* YLWTitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B445A61CBE4D9B0062B4D2 /* YLWTitleScrollView.m */; };
 		84B445AA1CBE4D9B0062B4D2 /* YLWContentCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B445A81CBE4D9B0062B4D2 /* YLWContentCollectionView.m */; };
-		84B445AD1CBE4DA40062B4D2 /* YLWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B445AC1CBE4DA40062B4D2 /* YLWCollectionViewCell.m */; };
 		84B445B81CBE4DBF0062B4D2 /* YLWContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B445B71CBE4DBF0062B4D2 /* YLWContentTableViewController.m */; };
 		84B445BD1CBE4DDB0062B4D2 /* YLWDetailTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B445BA1CBE4DDB0062B4D2 /* YLWDetailTextModel.m */; };
 		84B445BE1CBE4DDB0062B4D2 /* YLWImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B445BC1CBE4DDB0062B4D2 /* YLWImageModel.m */; };
@@ -64,6 +64,8 @@
 /* Begin PBXFileReference section */
 		1E27CF239958D8ED4657A0CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		340E228308EF573FB83B030B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8470C89B1CBF388B00B0FDBF /* YLWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLWCollectionViewCell.h; path = "掌上海印/YLWCollectionViewCell.h"; sourceTree = SOURCE_ROOT; };
+		8470C89C1CBF388B00B0FDBF /* YLWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLWCollectionViewCell.m; path = "掌上海印/YLWCollectionViewCell.m"; sourceTree = SOURCE_ROOT; };
 		84B444F91CBE359E0062B4D2 /* 掌上海印.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "掌上海印.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B444FD1CBE359E0062B4D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84B444FF1CBE359E0062B4D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,8 +110,6 @@
 		84B445A61CBE4D9B0062B4D2 /* YLWTitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWTitleScrollView.m; sourceTree = "<group>"; };
 		84B445A71CBE4D9B0062B4D2 /* YLWContentCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLWContentCollectionView.h; sourceTree = "<group>"; };
 		84B445A81CBE4D9B0062B4D2 /* YLWContentCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWContentCollectionView.m; sourceTree = "<group>"; };
-		84B445AB1CBE4DA40062B4D2 /* YLWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLWCollectionViewCell.h; path = "../../../../../../Users/admin/Downloads/推库iOS/推库iOS/Class/Home(文章)/View/YLWCollectionViewCell.h"; sourceTree = "<group>"; };
-		84B445AC1CBE4DA40062B4D2 /* YLWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLWCollectionViewCell.m; path = "../../../../../../Users/admin/Downloads/推库iOS/推库iOS/Class/Home(文章)/View/YLWCollectionViewCell.m"; sourceTree = "<group>"; };
 		84B445B61CBE4DBF0062B4D2 /* YLWContentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLWContentTableViewController.h; sourceTree = SOURCE_ROOT; };
 		84B445B71CBE4DBF0062B4D2 /* YLWContentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWContentTableViewController.m; sourceTree = SOURCE_ROOT; };
 		84B445B91CBE4DDB0062B4D2 /* YLWDetailTextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLWDetailTextModel.h; path = "/Users/admin/Desktop/OMG/掌上海印/YLWDetailTextModel.h"; sourceTree = "<absolute>"; };
@@ -576,8 +576,8 @@
 		84B445891CBE41790062B4D2 /* Content(内容cell) */ = {
 			isa = PBXGroup;
 			children = (
-				84B445AB1CBE4DA40062B4D2 /* YLWCollectionViewCell.h */,
-				84B445AC1CBE4DA40062B4D2 /* YLWCollectionViewCell.m */,
+				8470C89B1CBF388B00B0FDBF /* YLWCollectionViewCell.h */,
+				8470C89C1CBF388B00B0FDBF /* YLWCollectionViewCell.m */,
 				84B445821CBE41790062B4D2 /* View */,
 				84B445851CBE41790062B4D2 /* Model */,
 				84B445881CBE41790062B4D2 /* Controller */,
@@ -833,8 +833,8 @@
 				84B445B81CBE4DBF0062B4D2 /* YLWContentTableViewController.m in Sources */,
 				84B445AA1CBE4D9B0062B4D2 /* YLWContentCollectionView.m in Sources */,
 				84B4455D1CBE3B2E0062B4D2 /* UserViewController.m in Sources */,
+				8470C89D1CBF388B00B0FDBF /* YLWCollectionViewCell.m in Sources */,
 				84B4454D1CBE3A430062B4D2 /* MessageViewController.m in Sources */,
-				84B445AD1CBE4DA40062B4D2 /* YLWCollectionViewCell.m in Sources */,
 				84B445D21CBE6C9C0062B4D2 /* SYQRCodeViewController.m in Sources */,
 				84B445541CBE3A7E0062B4D2 /* MarkViewController.m in Sources */,
 				84B445BE1CBE4DDB0062B4D2 /* YLWImageModel.m in Sources */,
