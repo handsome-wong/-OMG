@@ -9,6 +9,20 @@
 /* Begin PBXBuildFile section */
 		1E01ECAFECA2038D35890F54 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 340E228308EF573FB83B030B /* libPods.a */; };
 		8470C89D1CBF388B00B0FDBF /* YLWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470C89C1CBF388B00B0FDBF /* YLWCollectionViewCell.m */; };
+		8470C8A11CBF97EC00B0FDBF /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470C89F1CBF97EC00B0FDBF /* NewsCell.m */; };
+		8470C8A21CBF97EC00B0FDBF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8470C8A01CBF97EC00B0FDBF /* NewsCell.xib */; };
+		8470C8A71CBFB1EC00B0FDBF /* baoyifan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8470C8A61CBFB1EC00B0FDBF /* baoyifan.plist */; };
+		848D4FA81CC08EC7005738D8 /* SeminarSonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D4FA41CC08EC7005738D8 /* SeminarSonViewController.m */; };
+		848D4FA91CC08EC7005738D8 /* SeminarSonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D4FA61CC08EC7005738D8 /* SeminarSonCell.m */; };
+		848D4FAA1CC08EC7005738D8 /* SeminarSonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848D4FA71CC08EC7005738D8 /* SeminarSonCell.xib */; };
+		848D4FB01CC08F10005738D8 /* SeminarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848D4FAD1CC08F10005738D8 /* SeminarCell.xib */; };
+		848D4FB11CC08F10005738D8 /* SeminarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D4FAF1CC08F10005738D8 /* SeminarCell.m */; };
+		848D4FB51CC08F85005738D8 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D4FB41CC08F85005738D8 /* EGOCache.m */; };
+		848D4FB81CC09124005738D8 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D4FB71CC09124005738D8 /* Util.m */; };
+		848D4FBB1CC0915A005738D8 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D4FBA1CC0915A005738D8 /* BaseService.m */; };
+		848D4FC11CC092A2005738D8 /* SeminarService.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D4FC01CC092A2005738D8 /* SeminarService.m */; };
+		848D4FC41CC092D0005738D8 /* SeminarSonService.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D4FC31CC092D0005738D8 /* SeminarSonService.m */; };
+		848D4FC61CC09961005738D8 /* Seminar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848D4FC51CC09961005738D8 /* Seminar.storyboard */; };
 		84B444FE1CBE359E0062B4D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B444FD1CBE359E0062B4D2 /* main.m */; };
 		84B445011CBE359E0062B4D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B445001CBE359E0062B4D2 /* AppDelegate.m */; };
 		84B445071CBE359E0062B4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B445051CBE359E0062B4D2 /* Main.storyboard */; };
@@ -66,6 +80,31 @@
 		340E228308EF573FB83B030B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8470C89B1CBF388B00B0FDBF /* YLWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLWCollectionViewCell.h; path = "掌上海印/YLWCollectionViewCell.h"; sourceTree = SOURCE_ROOT; };
 		8470C89C1CBF388B00B0FDBF /* YLWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLWCollectionViewCell.m; path = "掌上海印/YLWCollectionViewCell.m"; sourceTree = SOURCE_ROOT; };
+		8470C89E1CBF97EC00B0FDBF /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		8470C89F1CBF97EC00B0FDBF /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		8470C8A01CBF97EC00B0FDBF /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		8470C8A61CBFB1EC00B0FDBF /* baoyifan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = baoyifan.plist; sourceTree = "<group>"; };
+		848D4FA31CC08EC7005738D8 /* SeminarSonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeminarSonViewController.h; sourceTree = SOURCE_ROOT; };
+		848D4FA41CC08EC7005738D8 /* SeminarSonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeminarSonViewController.m; sourceTree = SOURCE_ROOT; };
+		848D4FA51CC08EC7005738D8 /* SeminarSonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeminarSonCell.h; sourceTree = SOURCE_ROOT; };
+		848D4FA61CC08EC7005738D8 /* SeminarSonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeminarSonCell.m; sourceTree = SOURCE_ROOT; };
+		848D4FA71CC08EC7005738D8 /* SeminarSonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeminarSonCell.xib; sourceTree = SOURCE_ROOT; };
+		848D4FAD1CC08F10005738D8 /* SeminarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeminarCell.xib; sourceTree = SOURCE_ROOT; };
+		848D4FAE1CC08F10005738D8 /* SeminarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeminarCell.h; sourceTree = SOURCE_ROOT; };
+		848D4FAF1CC08F10005738D8 /* SeminarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeminarCell.m; sourceTree = SOURCE_ROOT; };
+		848D4FB31CC08F85005738D8 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		848D4FB41CC08F85005738D8 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		848D4FB61CC09124005738D8 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		848D4FB71CC09124005738D8 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		848D4FB91CC0915A005738D8 /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
+		848D4FBA1CC0915A005738D8 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
+		848D4FBD1CC091B7005738D8 /* SeminarUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeminarUrl.h; sourceTree = "<group>"; };
+		848D4FBE1CC09207005738D8 /* ApiConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConstant.h; sourceTree = "<group>"; };
+		848D4FBF1CC092A2005738D8 /* SeminarService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeminarService.h; sourceTree = SOURCE_ROOT; };
+		848D4FC01CC092A2005738D8 /* SeminarService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeminarService.m; sourceTree = SOURCE_ROOT; };
+		848D4FC21CC092D0005738D8 /* SeminarSonService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeminarSonService.h; sourceTree = SOURCE_ROOT; };
+		848D4FC31CC092D0005738D8 /* SeminarSonService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeminarSonService.m; sourceTree = SOURCE_ROOT; };
+		848D4FC51CC09961005738D8 /* Seminar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Seminar.storyboard; sourceTree = SOURCE_ROOT; };
 		84B444F91CBE359E0062B4D2 /* 掌上海印.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "掌上海印.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B444FD1CBE359E0062B4D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84B444FF1CBE359E0062B4D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -167,6 +206,38 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		848D4FAB1CC08ECA005738D8 /* SeminarSon */ = {
+			isa = PBXGroup;
+			children = (
+				848D4FA31CC08EC7005738D8 /* SeminarSonViewController.h */,
+				848D4FA41CC08EC7005738D8 /* SeminarSonViewController.m */,
+				848D4FA51CC08EC7005738D8 /* SeminarSonCell.h */,
+				848D4FA61CC08EC7005738D8 /* SeminarSonCell.m */,
+				848D4FA71CC08EC7005738D8 /* SeminarSonCell.xib */,
+				848D4FC51CC09961005738D8 /* Seminar.storyboard */,
+			);
+			name = SeminarSon;
+			sourceTree = "<group>";
+		};
+		848D4FAC1CC08EEB005738D8 /* SeminarCell */ = {
+			isa = PBXGroup;
+			children = (
+				848D4FAD1CC08F10005738D8 /* SeminarCell.xib */,
+				848D4FAE1CC08F10005738D8 /* SeminarCell.h */,
+				848D4FAF1CC08F10005738D8 /* SeminarCell.m */,
+			);
+			name = SeminarCell;
+			sourceTree = "<group>";
+		};
+		848D4FB21CC08F6A005738D8 /* EGOcache */ = {
+			isa = PBXGroup;
+			children = (
+				848D4FB31CC08F85005738D8 /* EGOCache.h */,
+				848D4FB41CC08F85005738D8 /* EGOCache.m */,
+			);
+			name = EGOcache;
+			sourceTree = "<group>";
+		};
 		84B444F01CBE359E0062B4D2 = {
 			isa = PBXGroup;
 			children = (
@@ -245,10 +316,18 @@
 		84B445301CBE35C10062B4D2 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				848D4FBE1CC09207005738D8 /* ApiConstant.h */,
+				848D4FBD1CC091B7005738D8 /* SeminarUrl.h */,
+				848D4FB91CC0915A005738D8 /* BaseService.h */,
+				848D4FBA1CC0915A005738D8 /* BaseService.m */,
+				848D4FB61CC09124005738D8 /* Util.h */,
+				848D4FB71CC09124005738D8 /* Util.m */,
+				848D4FB21CC08F6A005738D8 /* EGOcache */,
 				84B445CF1CBE6C860062B4D2 /* SYQRCode */,
 				84B4459F1CBE42CA0062B4D2 /* Categray */,
 				84B4455E1CBE3C460062B4D2 /* titleArray.plist */,
 				84B445A11CBE435C0062B4D2 /* PrefixHeader.pch */,
+				8470C8A61CBFB1EC00B0FDBF /* baoyifan.plist */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -433,6 +512,9 @@
 		84B445451CBE38080062B4D2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8470C89E1CBF97EC00B0FDBF /* NewsCell.h */,
+				8470C89F1CBF97EC00B0FDBF /* NewsCell.m */,
+				8470C8A01CBF97EC00B0FDBF /* NewsCell.xib */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -567,6 +649,12 @@
 		84B445881CBE41790062B4D2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				848D4FC21CC092D0005738D8 /* SeminarSonService.h */,
+				848D4FC31CC092D0005738D8 /* SeminarSonService.m */,
+				848D4FBF1CC092A2005738D8 /* SeminarService.h */,
+				848D4FC01CC092A2005738D8 /* SeminarService.m */,
+				848D4FAC1CC08EEB005738D8 /* SeminarCell */,
+				848D4FAB1CC08ECA005738D8 /* SeminarSon */,
 				84B445B61CBE4DBF0062B4D2 /* YLWContentTableViewController.h */,
 				84B445B71CBE4DBF0062B4D2 /* YLWContentTableViewController.m */,
 			);
@@ -749,12 +837,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848D4FC61CC09961005738D8 /* Seminar.storyboard in Resources */,
 				84B445D41CBE6E120062B4D2 /* Sign.storyboard in Resources */,
 				84B445CE1CBE60640062B4D2 /* OMG.rtf in Resources */,
+				8470C8A21CBF97EC00B0FDBF /* NewsCell.xib in Resources */,
 				84B4450C1CBE359E0062B4D2 /* LaunchScreen.storyboard in Resources */,
 				84B445CC1CBE5E7B0062B4D2 /* YLWNewsTableViewCell.xib in Resources */,
 				84B445091CBE359E0062B4D2 /* Assets.xcassets in Resources */,
+				848D4FAA1CC08EC7005738D8 /* SeminarSonCell.xib in Resources */,
+				848D4FB01CC08F10005738D8 /* SeminarCell.xib in Resources */,
 				84B445071CBE359E0062B4D2 /* Main.storyboard in Resources */,
+				8470C8A71CBFB1EC00B0FDBF /* baoyifan.plist in Resources */,
 				84B4455F1CBE3C460062B4D2 /* titleArray.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -834,20 +927,29 @@
 				84B445AA1CBE4D9B0062B4D2 /* YLWContentCollectionView.m in Sources */,
 				84B4455D1CBE3B2E0062B4D2 /* UserViewController.m in Sources */,
 				8470C89D1CBF388B00B0FDBF /* YLWCollectionViewCell.m in Sources */,
+				848D4FA91CC08EC7005738D8 /* SeminarSonCell.m in Sources */,
 				84B4454D1CBE3A430062B4D2 /* MessageViewController.m in Sources */,
 				84B445D21CBE6C9C0062B4D2 /* SYQRCodeViewController.m in Sources */,
 				84B445541CBE3A7E0062B4D2 /* MarkViewController.m in Sources */,
 				84B445BE1CBE4DDB0062B4D2 /* YLWImageModel.m in Sources */,
+				8470C8A11CBF97EC00B0FDBF /* NewsCell.m in Sources */,
 				84B4456E1CBE3DE70062B4D2 /* DepartmentViewController.m in Sources */,
 				84B445C41CBE505F0062B4D2 /* UIBarButtonItem+CustomByButton.m in Sources */,
+				848D4FB81CC09124005738D8 /* Util.m in Sources */,
+				848D4FB51CC08F85005738D8 /* EGOCache.m in Sources */,
 				84B445681CBE3C9D0062B4D2 /* YLWBasesHomeViewController.m in Sources */,
+				848D4FB11CC08F10005738D8 /* SeminarCell.m in Sources */,
 				84B445A91CBE4D9B0062B4D2 /* YLWTitleScrollView.m in Sources */,
 				84B445751CBE3E5B0062B4D2 /* SignViewController.m in Sources */,
+				848D4FBB1CC0915A005738D8 /* BaseService.m in Sources */,
 				84B445C11CBE4DF10062B4D2 /* YLWDetailTextViewController.m in Sources */,
 				84B445571CBE3A920062B4D2 /* NewsViewController.m in Sources */,
 				84B445CB1CBE5E7B0062B4D2 /* YLWNewsTableViewCell.m in Sources */,
+				848D4FC11CC092A2005738D8 /* SeminarService.m in Sources */,
+				848D4FA81CC08EC7005738D8 /* SeminarSonViewController.m in Sources */,
 				84B4456B1CBE3CC80062B4D2 /* YLWHomeViewController.m in Sources */,
 				84B4454A1CBE39C10062B4D2 /* MainTabbarViewController.m in Sources */,
+				848D4FC41CC092D0005738D8 /* SeminarSonService.m in Sources */,
 				84B445621CBE3C600062B4D2 /* YLWTitleModel.m in Sources */,
 				84B445BD1CBE4DDB0062B4D2 /* YLWDetailTextModel.m in Sources */,
 				84B445011CBE359E0062B4D2 /* AppDelegate.m in Sources */,
@@ -994,6 +1096,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/掌上海印/PrefixHeader.pch";
 				INFOPLIST_FILE = "掌上海印/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hhc.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1006,6 +1109,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "掌上海印/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hhc.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";

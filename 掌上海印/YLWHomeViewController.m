@@ -9,7 +9,7 @@
 #import "YLWHomeViewController.h"
 #import "YLWDetailTextViewController.h"
 //#import "YLWSearchViewController.h"
-
+#import "SeminarSonViewController.h"
 @interface YLWHomeViewController ()
 
 @end
@@ -22,10 +22,9 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
-    
+
     [self setNav];
-    
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pushToDetailText:) name:YLWPushToDetailTextVCNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(push:) name:@"push" object:nil];
     
     self.titleModelArray = [YLWTitleModel titleModelGetModelArrayWith:@"titleArray.plist"];
     
@@ -33,6 +32,13 @@
     
     
     
+}
+
+- (void)push:(id *)arr {
+    
+    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Seminar" bundle:nil];
+    SeminarSonViewController *vc = [story instantiateViewControllerWithIdentifier:@"SeminarSonViewController"];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 -(void)dealloc{

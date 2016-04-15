@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>title</key>
-		<string>热门</string>
+		<string>爆一番</string>
 		<key>cid</key>
 		<string>0</string>
 		<key>urlstring</key>
@@ -12,59 +12,11 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>推荐</string>
+		<string>互评</string>
 		<key>cid</key>
 		<string>0</string>
 		<key>urlstring</key>
 		<string>http://api.tuicool.com/api/articles/hot.json?cid=0&amp;size=30</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>科技</string>
-		<key>cid</key>
-		<string>101000000</string>
-		<key>urlstring</key>
-		<string>http://api.tuicool.com/api/articles/hot.json?cid=101000000&amp;size=30</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>创投</string>
-		<key>cid</key>
-		<string>101040000</string>
-		<key>urlstring</key>
-		<string>http://api.tuicool.com/api/articles/hot.json?cid=101040000&amp;size=30</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>数码</string>
-		<key>cid</key>
-		<string>101050000</string>
-		<key>urlstring</key>
-		<string>http://api.tuicool.com/api/articles/hot.json?cid=101050000&amp;size=30</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>技术</string>
-		<key>cid</key>
-		<string>20</string>
-		<key>urlstring</key>
-		<string>http://api.tuicool.com/api/articles/hot.json?cid=20&amp;size=30</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>设计</string>
-		<key>cid</key>
-		<string>108000000</string>
-		<key>urlstring</key>
-		<string>http://api.tuicool.com/api/articles/hot.json?cid=108000000&amp;size=30</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>营销</string>
-		<key>cid</key>
-		<string>114000000</string>
-		<key>urlstring</key>
-		<string>http://api.tuicool.com/api/articles/hot.json?cid=114000000&amp;size=30</string>
 	</dict>
 </array>
 </plist>

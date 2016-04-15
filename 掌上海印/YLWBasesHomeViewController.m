@@ -30,17 +30,17 @@
     return _titleModelArray;
     
 }
-//
-//-(YLWTitleScrollView *)titleScrollView{
-//    
-//    if (_titleScrollView == nil) {
-//        _titleScrollView = [[YLWTitleScrollView alloc]initWithFrame:CGRectMake(0, 64, YLWScreenWidth, 37)];
-//        _titleScrollView.titleModelArray = self.titleModelArray;
-//        _titleScrollView.titledelegate = self;
-//    }
-//    
-//    return _titleScrollView;
-//}
+
+-(YLWTitleScrollView *)titleScrollView{
+    
+    if (_titleScrollView == nil) {
+        _titleScrollView = [[YLWTitleScrollView alloc]initWithFrame:CGRectMake(5, 64, YLWScreenWidth, 37)];
+        _titleScrollView.titleModelArray = self.titleModelArray;
+        _titleScrollView.titledelegate = self;
+    }
+    
+    return _titleScrollView;
+}
 
 -(UICollectionViewFlowLayout *)flowLayout{
     
@@ -54,24 +54,24 @@
     return  _flowLayout;
 }
 
-//-(YLWContentCollectionView *)contentCollectionView{
-//    
-//    if (_contentCollectionView == nil) {
-//        _contentCollectionView = [[YLWContentCollectionView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(self.titleScrollView.frame), YLWScreenWidth, YLWScreenheight-CGRectGetMaxY(self.titleScrollView.frame)-49) collectionViewLayout:self.flowLayout];
-//        _contentCollectionView.delegate = self;
-//        _contentCollectionView.dataSource = self;
-//        _contentCollectionView.pagingEnabled = YES;
-//        //        _contentCollectionView.showsHorizontalScrollIndicator = NO;
-//        NSLog(@"%ld",self.titleModelArray.count);
-//        for (int i = 0; i <self.titleModelArray.count; i ++) {
-//            [_contentCollectionView registerClass:[YLWCollectionViewCell class] forCellWithReuseIdentifier:[NSString stringWithFormat:@"%@%d",contentIdentifier,i]];
-//            
-//        }
-//        //        [_contentCollectionView registerClass:[YLWCollectionViewCell class] forCellWithReuseIdentifier:contentIdentifier];
-//        
-//    }
-//    return _contentCollectionView;
-//}
+-(YLWContentCollectionView *)contentCollectionView{
+    
+    if (_contentCollectionView == nil) {
+        _contentCollectionView = [[YLWContentCollectionView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(self.titleScrollView.frame), YLWScreenWidth, YLWScreenheight-CGRectGetMaxY(self.titleScrollView.frame)-49) collectionViewLayout:self.flowLayout];
+        _contentCollectionView.delegate = self;
+        _contentCollectionView.dataSource = self;
+        _contentCollectionView.pagingEnabled = YES;
+        //        _contentCollectionView.showsHorizontalScrollIndicator = NO;
+        NSLog(@"%ld",self.titleModelArray.count);
+        for (int i = 0; i <self.titleModelArray.count; i ++) {
+            [_contentCollectionView registerClass:[YLWCollectionViewCell class] forCellWithReuseIdentifier:[NSString stringWithFormat:@"%@%d",contentIdentifier,i]];
+            
+        }
+        //        [_contentCollectionView registerClass:[YLWCollectionViewCell class] forCellWithReuseIdentifier:contentIdentifier];
+        
+    }
+    return _contentCollectionView;
+}
 
 #pragma mark - 视图的生命周期方法
 - (void)viewDidLoad {
@@ -100,7 +100,7 @@
 #pragma mark - contentCollectionView的代理方法和数据源方法
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    NSLog(@"%ld",self.titleModelArray.count);
+    NSLog(@"%ld",(unsigned long)self.titleModelArray.count);
     return self.titleModelArray.count;
     
 }
@@ -130,13 +130,13 @@
 #pragma mark - titleScrollViewDelegate的代理方法
 
 -(void)titleScrollView:(YLWTitleScrollView *)titleScrollView WithTitleLabel:(UILabel *)titleLabel{
-    
+//    titleLabel.frame = CGRectMake(100, titleLabel.frame.origin.y, titleLabel.frame.size.width, titleLabel.frame.size.height);
     NSInteger i = titleLabel.tag;
     UILabel *lastlabel = self.titleScrollView.subviews[self.lastIndex];
     lastlabel.textColor = [UIColor blackColor];
     titleLabel.textColor = [UIColor colorWithRed:22.0/255.0 green:147.0/255.0 blue:114.0/255.0 alpha:1.0];
     self.lastIndex = i;
-//    [self.contentCollectionView setContentOffset:CGPointMake(i *YLWScreenWidth, 0) animated:NO];
+    [self.contentCollectionView setContentOffset:CGPointMake(i *YLWScreenWidth, 0) animated:NO];
     
 }
 
@@ -159,8 +159,11 @@
     self.lastIndex = currentIndex;
     //选中的label居中
     CGFloat needscrollX = titlelabel.center.x - self.titleScrollView.bounds.size.width*0.5;
+    NSLog(@"needscrollX=%f",needscrollX);
     //最大的偏移量
-    CGFloat maxScrollX = self.titleScrollView.contentSize.width - self.titleScrollView.bounds.size.width;
+//    CGFloat maxScrollX = self.titleScrollView.contentSize.width - self.titleScrollView.bounds.size.width/3;
+    CGFloat maxScrollX = 0.0;
+    NSLog(@"maxScrollX=%f",maxScrollX);
     
     if (needscrollX < 0) {
         

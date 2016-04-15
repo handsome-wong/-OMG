@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>userCaiCount</key>
+	<string>23</string>
+	<key>userLikeCount</key>
+	<string>76</string>
+	<key>userTime</key>
+	<string>一天前</string>
+	<key>userContentImageView</key>
+	<string>http://imgsrc.baidu.com/forum/w=580/sign=58c7c5e5778b4710ce2ffdc4f3cfc3b2/d3de800a19d8bc3e53533b0e878ba61ea9d3457e.jpg</string>
+	<key>userContent</key>
+	<string>刚才看到有个管理层的随地吐痰。。。。</string>
+	<key>userName</key>
+	<string>匿名</string>
+	<key>userImageView</key>
+	<string>http://image6.huangye88.com/2013/03/28/2a569ac6dbab1216.jpg</string>
+</dict>
+</plist>
